@@ -1,0 +1,149 @@
+@font-face {
+	font-family: productsans;
+	src: url(fonts/productsans.ttf);
+}
+
+body {
+	font-family: productsans;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}	
+
+ /* Top Rechts: Gmail, Afbeeldingen, Menu (Foto), Inloggen */
+
+.topright {
+	margin-left: 78%;
+	display: inline-block;
+	text-align: right;
+	font-size: 90%;
+	padding-top: 1%;
+}
+
+.topright2 {
+	margin-left: 15px;
+	font-size: 90%;
+}
+
+.inloggen {
+	background: rgba(120, 110, 255, 1);
+	padding: 7px;
+	width: 7%;
+	color: white;
+	border-radius: 2px;
+	border: 0px;
+	font-weight: bold;
+}
+
+.bento {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 2px;
+}
+
+/* Google Logo */
+
+.google {
+	width: 20%;
+	height: 20%;
+	margin-top: 10%;
+}
+
+/* Search Bar */
+
+.search {
+	border: 0px;
+	word-wrap: break-word;
+	height: 100%;	
+}
+
+.searchlogo {
+	height: 50%;
+	margin-right: 10px;
+	margin-top: 8px;
+}
+
+.searchdiv {
+	border-radius: 25px;
+	width: 40%;
+	padding: 10px;
+	height: 30px;
+	padding-bottom: 12px;
+	border: 1px solid rgba(150, 150, 150, 0.3);
+}
+
+.searchdiv:hover {
+	box-shadow: 1px 1px 5px rgba(150, 150, 150, 0.4);
+}
+
+/* Knoppen onder searchbar */
+
+.submit {
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 25px;
+	border-radius: 5px;
+	border: none;
+	color: rgba(100, 100, 100, 1);
+	width: 9%;
+	font-size: 90%;
+}
+
+.submit:hover {
+	border: 1px solid rgba(150, 150, 150, 1);
+	box-shadow: 1px 1px 5px rgba(150, 150, 150, 0.2);
+}
+
+/* Google Icon Title*/
+
+.icon {
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+/* Bar bottom of page */
+
+.bar {
+	margin-top: 15%;
+	background: rgba(200, 200, 200, 0.3);
+	border: 1px solid rgba(200, 200, 200, 0.5);
+	color: rgba(100, 100, 100, 1);
+	padding: 12px;
+	left: 0;
+	right: 0;
+	position: fixed;
+	padding-left: 50px;
+	font-size: 90%;
+}
+
+.bar2 {
+	margin-top: 273.15px;
+	background: rgba(200, 200, 200, 0.3);
+	border: 1px solid rgba(200, 200, 200, 0.5);
+	color: rgba(100, 100, 100, 1);
+	padding: 12px;
+	left: 0;
+	right: 0;
+	position: fixed;
+	padding-left: 50px;
+	font-size: 90%;
+}
+
+.bartext {
+	color: rgba(100, 100, 100, 1);
+	margin-right: 40px;
+}
+
+.bartext2 {
+	color: rgba(100, 100, 100, 1);
+	margin-right: 40px;
+	float: right;
+}
